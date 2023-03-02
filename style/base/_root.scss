@@ -1,0 +1,24 @@
+:root {
+  --clr-bg: #E8F5E2;
+  --clr-accent: #608A4D;
+  --clr-btn: #9BC588;
+  --clr-neutral: #6C7667;
+
+  --fs-900: 2em;
+  --fs-700: 1.625em;
+  --fs-600: 1.375em;
+  --fs-500: 1.25em;
+  --fs-400: 1.125em;
+  --fs-300: 1em;
+  --fs-200: .0625em;
+
+  --ff-normal: 'Nunito', sans-serif;
+
+  @media (min-width: 600px) {
+    --fs-900: 2.8125em;
+  }
+
+  @media (min-width: 900px) {
+    --fs-900: 2.8125em
+  }
+}
